@@ -11,25 +11,25 @@ $(function () {
 });
 
 $(function () {
-  let header = $(".nav__link");
+  let header = $(".nav-list__link");
 
   $(window).scroll(function () {
     if ($(this).scrollTop() > 1) {
-      header.addClass("nav__change");
+      header.addClass("nav-list__link--change");
     } else {
-      header.removeClass("nav__change");
+      header.removeClass("nav-list__link--change");
     }
   });
 });
 
 $(function () {
-  let header = $(".current");
+  let header = $(".nav-list__link--current");
 
   $(window).scroll(function () {
     if ($(this).scrollTop() > 1) {
-      header.addClass("current__change");
+      header.addClass("nav-list__link--current--change");
     } else {
-      header.removeClass("current__change");
+      header.removeClass("nav-list__link--current--change");
     }
   });
 });
