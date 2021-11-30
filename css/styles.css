@@ -86,11 +86,6 @@ p {
 
 .header__logo {
   color: var(--accent-color);
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
-  text-decoration: none;
 }
 
 .nav__main {
@@ -598,11 +593,6 @@ p {
 
 .footer__logo {
   color: var(--accent-color);
-  font-family: "Raleway", sans-serif;
-  margin-bottom: 20px;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
 }
 
 .footer__text {
