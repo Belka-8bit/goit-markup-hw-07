@@ -47,13 +47,13 @@ $(function () {
 });
 
 $(function () {
-  let header = $(".header__address");
+  let header = $(".address-list__link");
 
   $(window).scroll(function () {
     if ($(this).scrollTop() > 1) {
-      header.addClass("header__address__change");
+      header.addClass("address-list__link--change");
     } else {
-      header.removeClass("header__address__change");
+      header.removeClass("address-list__link--change");
     }
   });
 });
