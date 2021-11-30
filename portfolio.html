@@ -22,36 +22,40 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="page-header">
       <div class="container">
         <nav class="nav__main">
-          <a class="header__inner" href="/"
-            ><span class="header__logo">Web</span>Studio</a
+          <a class="header-logo logo link" href="/"
+            ><span class="header-logo__accent">Web</span>Studio</a
           >
-          <ul class="nav__list list">
-            <li class="nav__item">
-              <a class="nav__link" href="index.html">Студия</a>
+          <ul class="nav-list list">
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="index.html">Студия</a>
             </li>
-            <li class="nav__item">
-              <a class="nav__link current" href="portfolio.html">Портфолио</a>
+            <li class="nav-list__item">
+              <a
+                class="nav-list__link nav-list__link--current link"
+                href="portfolio.html"
+                >Портфолио</a
+              >
             </li>
-            <li class="nav__item">
-              <a class="nav__link" href="">Контакты</a>
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="address__list list">
-          <li class="nav__address">
-            <a class="header__address" href="mailto:info@devstudio.com">
-              <svg class="header__icon" width="16" height="16">
+        <ul class="address-list list">
+          <li class="address-list__item">
+            <a class="address-list__link link" href="mailto:info@devstudio.com">
+              <svg class="address-list__icon" width="16" height="16">
                 <use href="./images/icons.svg#mail"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="nav__address">
-            <a class="header__address" href="tel:+380961111111">
-              <svg class="header__icon" width="16" height="16">
+          <li class="address-list__item">
+            <a class="address-list__link link" href="tel:+380961111111">
+              <svg class="address-list__icon" width="16" height="16">
                 <use href="./images/icons.svg#phone"></use>
               </svg>
               +38 096 111 11 11
@@ -63,7 +67,7 @@
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="title__hidden">Фильтр</h1>
+          <h1 class="hidden">Фильтр</h1>
           <ul class="btn__list list">
             <li class="btn__inner">
               <button class="filter__btn active" type="button">Все</button>
