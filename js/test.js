@@ -1,11 +1,11 @@
 $(function () {
-  let header = $(".header");
+  let header = $(".page-header");
 
   $(window).scroll(function () {
     if ($(this).scrollTop() > 1) {
-      header.addClass("header_change");
+      header.addClass("page-header--change");
     } else {
-      header.removeClass("header_change");
+      header.removeClass("page-header--change");
     }
   });
 });
@@ -35,13 +35,13 @@ $(function () {
 });
 
 $(function () {
-  let header = $(".header__inner");
+  let header = $(".header-logo");
 
   $(window).scroll(function () {
     if ($(this).scrollTop() > 1) {
-      header.addClass("header__inner__change");
+      header.addClass("header-logo--change");
     } else {
-      header.removeClass("header__inner__change");
+      header.removeClass("header-logo--change");
     }
   });
 });
