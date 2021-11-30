@@ -899,6 +899,7 @@ p {
 .modal__contract {
   font-size: 14px;
   line-height: 1.71;
+  text-decoration-skip-ink: none;
   color: var(--accent-color);
 }
 
