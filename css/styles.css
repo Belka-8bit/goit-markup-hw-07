@@ -80,16 +80,6 @@ p {
   overflow: hidden;
 }
 
-/* Logo */
-
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
-  color: var(--primary-text-color);
-}
-
 /* Buttons */
 
 .btn {
@@ -152,7 +142,7 @@ p {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* Header */
+/* Page Header */
 
 .page-header {
   position: fixed;
@@ -166,6 +156,14 @@ p {
 
 .page-header .container {
   display: flex;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary-text-color);
 }
 
 .header-logo {
