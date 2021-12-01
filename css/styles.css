@@ -712,7 +712,7 @@ p {
 
 /* Modal */
 
-.backdrop {
+.modal-backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -725,12 +725,12 @@ p {
     var(--transition-timing-function);
 }
 
-.backdrop__hidden {
+.modal-backdrop__hidden {
   opacity: 0;
   pointer-events: none;
 }
 
-.backdrop.backdrop__hidden .modal {
+.modal-backdrop__hidden .modal {
   transform: translate(-50%, -50%) scale(0.5);
 }
 
@@ -749,7 +749,7 @@ p {
     var(--transition-timing-function);
 }
 
-.modal__button {
+.modal-btn {
   display: flex;
   position: absolute;
   width: 30px;
@@ -767,8 +767,8 @@ p {
     border-color var(--transition-duration) var(--transition-timing-function);
 }
 
-.modal__button:focus,
-.modal__button:hover {
+.modal-btn:focus,
+.modal-btn:hover {
   fill: var(--accent-color);
   border-color: var(--accent-color);
   transform: rotate(90deg);
@@ -776,11 +776,11 @@ p {
 
 /* Modal form */
 
-.modal__form {
+.modal-form {
   padding: 40px;
 }
 
-.modal__text {
+.modal-form__text {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -788,7 +788,7 @@ p {
   text-align: center;
 }
 
-.modal__label {
+.modal-form__label {
   position: relative;
   display: block;
   margin-bottom: 10px;
@@ -799,7 +799,7 @@ p {
   margin-bottom: 20px;
 }
 
-.label__text {
+.label-form__label-text {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
@@ -808,7 +808,7 @@ p {
   color: var(--secondary-text-color);
 }
 
-.modal__input {
+.modal-form__label-input {
   display: block;
   width: 100%;
   height: 40px;
@@ -821,7 +821,7 @@ p {
     var(--transition-timing-function);
 }
 
-.input__icon {
+.modal-form__label-icon {
   position: absolute;
   top: 0;
   left: 0;
@@ -829,14 +829,14 @@ p {
   transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
-.modal__label:hover,
-.modal__input:hover {
+.modal-form__label:hover,
+.modal-form__label-input:hover {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.modal__label:focus-within > .modal__input,
-.modal__label:focus-within > .input__icon {
+.modal-form__label:focus-within > .modal-form__label-input,
+.modal-form__label:focus-within > .modal-form__label-icon {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
