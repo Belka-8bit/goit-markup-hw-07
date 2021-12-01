@@ -391,13 +391,13 @@ p {
   align-items: center;
 }
 
-/* Specialist */
+/* Team */
 
-.section__specialist {
+.team {
   background-color: var(--secondary-section-color);
 }
 
-.section__title {
+.team-title {
   color: var(--primary-text-color);
   margin-bottom: 50px;
   font-size: 36px;
@@ -406,15 +406,11 @@ p {
   text-align: center;
 }
 
-.specialist__list {
+.team-list {
   display: flex;
 }
 
-.specialist__card:not(:last-child) {
-  margin-right: 30px;
-}
-
-.specialist__card {
+.team-card {
   background-color: var(--primary-background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -422,17 +418,21 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 
-.specialist__card img {
+.team-card img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.specialist__text {
+.team-card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-card__info {
   padding: 30px 32px;
 }
 
-.specialist__name {
+.team-card__name {
   color: var(--primary-text-color);
   margin-bottom: 10px;
   font-weight: 500;
