@@ -397,15 +397,6 @@ p {
   background-color: var(--secondary-section-color);
 }
 
-.team-title {
-  color: var(--primary-text-color);
-  margin-bottom: 50px;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.16;
-  text-align: center;
-}
-
 .team-list {
   display: flex;
 }
@@ -440,23 +431,23 @@ p {
   text-align: center;
 }
 
-.specialist__info {
+.team-card__position {
   color: var(--secondary-text-color);
   margin-bottom: 16px;
   line-height: 1.18;
   text-align: center;
 }
 
-.specialist__item {
+.team-social__list {
   display: flex;
   justify-content: center;
 }
 
-.specialist__icon:not(:last-child) {
+.team-social__icon:not(:last-child) {
   margin-right: 10px;
 }
 
-.specialist__social {
+.team-social__link {
   fill: var(--icon-color);
   display: flex;
   width: 44px;
@@ -471,8 +462,8 @@ p {
       var(--transition-timing-function);
 }
 
-.specialist__social:hover,
-.specialist__social:focus {
+.team-social__link:hover,
+.team-social__link:focus {
   background-color: var(--accent-color);
   fill: var(--tittle-text-color);
 }
