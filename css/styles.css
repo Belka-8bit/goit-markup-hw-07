@@ -730,7 +730,7 @@ p {
   pointer-events: none;
 }
 
-.modal-backdrop--hidden .modal {
+.modal-backdrop--hidden > .modal {
   transform: translate(-50%, -50%) scale(0.5);
 }
 
