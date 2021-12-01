@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Header -->
+    <!-- Page Header -->
     <header class="page-header">
       <div class="page-header__container container">
         <nav class="nav__main">
@@ -404,7 +404,7 @@
       </section>
       <!-- /Clients -->
     </main>
-    <!-- Footer -->
+    <!-- Page Footer -->
     <footer class="page-footer section">
       <div class="page-footer__container container">
         <div>
@@ -546,20 +546,30 @@
               placeholder="Введите текст"
             ></textarea>
           </label>
-          <label class="modal__checkbox">
-            <input class="modal__policy hidden" type="checkbox" name="policy" />
-            <svg class="icon__check" width="16" height="15">
+          <label class="modal-form__checkbox">
+            <input
+              class="modal-form__checkbox-input hidden"
+              type="checkbox"
+              name="policy"
+            />
+            <svg class="modal-form__checkbox-icon" width="16" height="15">
               <use href="./images/icons.svg#check"></use>
             </svg>
-            <span class="checkbox__text"
+            <span class="modal-form__checkbox-text"
               >Соглашаюсь с рассылкой и принимаю
-              <a class="modal__contract" href="/">Условия договора</a>
+              <a class="modal-form__checkbox-agreement" href="/"
+                >Условия договора</a
+              >
             </span></label
           >
-          <button class="modal__submit btn" type="submit">Отправить</button>
+          <button class="modal-form__submit-btn btn" type="submit">
+            Отправить
+          </button>
         </form>
       </div>
     </div>
+    <!-- /Modal -->
+
     <a href="/" class="back__top"></a>
     <script src="./js/modal.js"></script>
     <script src="./js/jquery-3.6.0.min.js"></script>
