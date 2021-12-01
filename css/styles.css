@@ -470,15 +470,15 @@ p {
 
 /* Clients */
 
-.clients__list {
+.clients-list {
   display: flex;
 }
 
-.clients__item:not(:last-child) {
+.clients-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients__card {
+.clients-list__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -490,8 +490,8 @@ p {
     border-color var(--transition-duration) var(--transition-timing-function);
 }
 
-.clients__card:hover,
-.clients__card:focus {
+.clients-list__link:hover,
+.clients-list__link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
