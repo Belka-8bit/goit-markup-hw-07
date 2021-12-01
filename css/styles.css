@@ -795,10 +795,6 @@ p {
   color: var(--secondary-text-color);
 }
 
-.textarea {
-  margin-bottom: 20px;
-}
-
 .label-form__label-text {
   display: block;
   margin-bottom: 4px;
@@ -841,7 +837,11 @@ p {
   fill: var(--accent-color);
 }
 
-.modal__textarea {
+.textarea {
+  margin-bottom: 20px;
+}
+
+.modal-form__textarea {
   resize: none;
   display: block;
   width: 100%;
@@ -855,12 +855,12 @@ p {
     var(--transition-timing-function);
 }
 
-.modal__textarea:hover,
-.modal__textarea:focus {
+.modal-form__textarea:hover,
+.modal-form__textarea:focus {
   border-color: var(--accent-color);
 }
 
-.modal__textarea::placeholder {
+.modal-form__textarea::placeholder {
   font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.01em;
