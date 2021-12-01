@@ -167,7 +167,7 @@ p {
   border-bottom: 1px solid #ececec;
 }
 
-.page-header .container {
+.page-header__container {
   display: flex;
 }
 
@@ -362,7 +362,7 @@ p {
   display: flex;
 }
 
-.about-list img {
+.about-list__img {
   display: block;
 }
 
@@ -409,7 +409,7 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-card img {
+.team-card__img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -586,17 +586,17 @@ p {
 
 /* Footer */
 
-.footer {
+.page-footer {
   background-color: var(--primary-section-color);
   padding: 60px 0;
 }
 
-.footer__section {
+.page-footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer__inner {
+.footer-logo {
   color: var(--tittle-text-color);
   font-family: "Raleway", sans-serif;
   display: block;
@@ -607,11 +607,11 @@ p {
   text-decoration: none;
 }
 
-.footer__logo {
+.footer-logo__accent {
   color: var(--accent-color);
 }
 
-.footer__text {
+.address-text {
   color: var(--tittle-text-color);
   margin-bottom: 9px;
   font-size: 14px;
@@ -619,11 +619,11 @@ p {
   font-style: normal;
 }
 
-.footer__info {
+.footer-address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer__address {
+.footer-address__link {
   color: var(--footer-address-color);
   font-size: 14px;
   line-height: 1.71;
@@ -633,8 +633,8 @@ p {
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
-.footer__address:hover,
-.footer__address:focus {
+.footer-address__link:hover,
+.footer-address__link:focus {
   color: var(--accent-color);
 }
 

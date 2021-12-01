@@ -22,9 +22,9 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Page Header -->
+    <!-- Header -->
     <header class="page-header">
-      <div class="container">
+      <div class="page-header__container container">
         <nav class="nav__main">
           <a class="header-logo logo link" href="/"
             ><span class="header-logo__accent">Web</span>Studio</a
@@ -143,15 +143,30 @@
           <h2 class="about-title title">Чем мы занимаемся</h2>
           <ul class="about-list list">
             <li class="about-list__item">
-              <img src="./images/1.jpg" width="370" alt="programmer-working" />
+              <img
+                class="about-list__img"
+                src="./images/1.jpg"
+                width="370"
+                alt="programmer-working"
+              />
               <p class="about-list__text">Десктопные приложения</p>
             </li>
             <li class="about-list__item">
-              <img src="./images/2.jpg" width="370" alt="ui-developing" />
+              <img
+                class="about-list__img"
+                src="./images/2.jpg"
+                width="370"
+                alt="ui-developing"
+              />
               <p class="about-list__text">Мобильные приложения</p>
             </li>
             <li class="about-list__item">
-              <img src="./images/3.jpg" width="370" alt="colour-selection" />
+              <img
+                class="about-list__img"
+                src="./images/3.jpg"
+                width="370"
+                alt="colour-selection"
+              />
               <p class="about-list__text">Дизайнерские решения</p>
             </li>
           </ul>
@@ -165,7 +180,12 @@
           <h2 class="team-title title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-card">
-              <img src="./images/team-1.jpg" width="270" alt="team-1" />
+              <img
+                class="team-card__img"
+                src="./images/team-1.jpg"
+                width="270"
+                alt="team-1"
+              />
               <div class="team-card__info">
                 <h3 class="team-card__name">Игорь Демьяненко</h3>
                 <p class="team-card__position" lang="en">Product Designer</p>
@@ -202,7 +222,12 @@
               </div>
             </li>
             <li class="team-card">
-              <img src="./images/team-2.jpg" width="270" alt="team-1" />
+              <img
+                class="team-card__img"
+                src="./images/team-2.jpg"
+                width="270"
+                alt="team-2"
+              />
               <div class="team-card__info">
                 <h3 class="team-card__name">Ольга Репина</h3>
                 <p class="team-card__position" lang="en">Frontend Developer</p>
@@ -239,7 +264,12 @@
               </div>
             </li>
             <li class="team-card">
-              <img src="./images/team-3.jpg" width="270" alt="team-1" />
+              <img
+                class="team-card__img"
+                src="./images/team-3.jpg"
+                width="270"
+                alt="team-3"
+              />
               <div class="team-card__info">
                 <h3 class="team-card__name">Николай Тарасов</h3>
                 <p class="team-card__position" lang="en">Marketing</p>
@@ -276,7 +306,12 @@
               </div>
             </li>
             <li class="team-card">
-              <img src="./images/team-4.jpg" width="270" alt="team-1" />
+              <img
+                class="team-card__img"
+                src="./images/team-4.jpg"
+                width="270"
+                alt="team-4"
+              />
               <div class="team-card__info">
                 <h3 class="team-card__name">Михаил Ермаков</h3>
                 <p class="team-card__position" lang="en">UI Designer</p>
@@ -367,23 +402,27 @@
           </ul>
         </div>
       </section>
+      <!-- /Clients -->
     </main>
-    <footer class="footer section">
-      <div class="footer__section container">
+    <!-- Footer -->
+    <footer class="page-footer section">
+      <div class="page-footer__container container">
         <div>
-          <a class="footer__inner" href="/"
-            ><span class="footer__logo">Web</span>Studio</a
+          <a class="footer-logo link" href="/"
+            ><span class="footer-logo__accent">Web</span>Studio</a
           >
-          <address>
-            <p class="footer__text">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="list">
-              <li class="footer__info">
-                <a class="footer__address" href="mailto:info@example.com"
+          <address class="page-footer__address">
+            <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="footer-address__list list">
+              <li class="footer-address__item">
+                <a
+                  class="footer-address__link link"
+                  href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
-              <li>
-                <a class="footer__address" href="tel:+380991111111"
+              <li class="footer-address__item">
+                <a class="footer-address__link link" href="tel:+380991111111"
                   >+38 099 111 11 11</a
                 >
               </li>
