@@ -611,7 +611,7 @@ p {
   color: var(--accent-color);
 }
 
-.address-text {
+.page-footer__address-text {
   color: var(--tittle-text-color);
   margin-bottom: 9px;
   font-size: 14px;
@@ -619,11 +619,11 @@ p {
   font-style: normal;
 }
 
-.footer-address__item:not(:last-child) {
+.page-footer__address-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-address__link {
+.page-footer__address-link {
   color: var(--footer-address-color);
   font-size: 14px;
   line-height: 1.71;
@@ -633,16 +633,16 @@ p {
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
-.footer-address__link:hover,
-.footer-address__link:focus {
+.page-footer__address-link:hover,
+.page-footer__address-link:focus {
   color: var(--accent-color);
 }
 
-.footer__item {
+.page-footer__social {
   margin-left: 70px;
 }
 
-.footer__title {
+.page-foote__social-text {
   color: var(--tittle-text-color);
   margin-bottom: 20px;
   font-weight: 700;
@@ -651,11 +651,11 @@ p {
   text-transform: uppercase;
 }
 
-.footer__list {
+.page-footer__social-list {
   display: flex;
 }
 
-.footer__link {
+.page-footer__social-link {
   display: flex;
   fill: var(--tittle-text-color);
   background-color: rgba(255, 255, 255, 0.1);
@@ -671,20 +671,20 @@ p {
       var(--transition-timing-function);
 }
 
-.footer__icon:not(:last-child) {
+.page-footer__social-icon:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer__link:focus,
-.footer__link:hover {
+.page-footer__social-link:focus,
+.page-footer__social-link:hover {
   background-color: var(--accent-color);
 }
 
-.footer__form {
+.page-footer__form {
   margin-left: auto;
 }
 
-.footer__input {
+.page-footer__input {
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -697,16 +697,16 @@ p {
   border-radius: 4px;
 }
 
-.footer__input::placeholder {
+.page-footer__input::placeholder {
   line-height: 1.25;
   -webkit-text-fill-color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__btn {
+.page-footer__btn {
   margin-left: 12px;
 }
 
-.btn__icon {
+.page-footer__btn-icon {
   margin-left: 10px;
 }
 
