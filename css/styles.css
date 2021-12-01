@@ -725,12 +725,12 @@ p {
     var(--transition-timing-function);
 }
 
-.modal-backdrop__hidden {
+.modal-backdrop--hidden {
   opacity: 0;
   pointer-events: none;
 }
 
-.modal-backdrop__hidden .modal {
+.modal-backdrop--hidden .modal {
   transform: translate(-50%, -50%) scale(0.5);
 }
 
