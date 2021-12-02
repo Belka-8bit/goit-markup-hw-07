@@ -600,20 +600,15 @@ p {
 
 .footer-logo {
   color: var(--tittle-text-color);
-  font-family: "Raleway", sans-serif;
   display: block;
   margin-bottom: 20px;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
-  text-decoration: none;
 }
 
 .footer-logo__accent {
   color: var(--accent-color);
 }
 
-.footer__address-text {
+.footer-address__text {
   color: var(--tittle-text-color);
   margin-bottom: 9px;
   font-size: 14px;
@@ -621,11 +616,11 @@ p {
   font-style: normal;
 }
 
-.footer__address-item:not(:last-child) {
+.footer-address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer__address-link {
+.footer-address__link {
   color: var(--footer-address-color);
   font-size: 14px;
   line-height: 1.71;
@@ -635,16 +630,16 @@ p {
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
-.footer__address-link:hover,
-.footer__address-link:focus {
+.footer-address__link:hover,
+.footer-address__link:focus {
   color: var(--accent-color);
 }
 
-.footer__social {
+.footer-social {
   margin-left: 70px;
 }
 
-.footer__social-text {
+.footer-social__text {
   color: var(--tittle-text-color);
   margin-bottom: 20px;
   font-weight: 700;
@@ -653,11 +648,11 @@ p {
   text-transform: uppercase;
 }
 
-.footer__social-list {
+.footer-social__list {
   display: flex;
 }
 
-.footer__social-link {
+.footer-social__link {
   display: flex;
   fill: var(--tittle-text-color);
   background-color: rgba(255, 255, 255, 0.1);
@@ -673,20 +668,20 @@ p {
       var(--transition-timing-function);
 }
 
-.footer__social-icon:not(:last-child) {
+.footer-social__icon:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer__social-link:focus,
-.footer__social-link:hover {
+.footer-social__link:focus,
+.footer-social__link:hover {
   background-color: var(--accent-color);
 }
 
-.footer__form {
+.footer-form {
   margin-left: auto;
 }
 
-.footer__input {
+.footer-input {
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -699,16 +694,16 @@ p {
   border-radius: 4px;
 }
 
-.footer__input::placeholder {
+.footer-input::placeholder {
   line-height: 1.25;
   -webkit-text-fill-color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__btn {
+.footer-btn {
   margin-left: 12px;
 }
 
-.footer__btn-icon {
+.footer-btn__icon {
   margin-left: 10px;
 }
 
