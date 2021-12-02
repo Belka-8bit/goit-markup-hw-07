@@ -681,6 +681,10 @@ p {
   margin-left: auto;
 }
 
+.footer-form__label {
+  display: inline-block;
+}
+
 .footer-input {
   width: 358px;
   height: 50px;
