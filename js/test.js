@@ -1,11 +1,11 @@
 $(function () {
-  let header = $(".page-header");
+  let header = $(".header");
 
   $(window).scroll(function () {
     if ($(this).scrollTop() > 1) {
-      header.addClass("page-header--change");
+      header.addClass("header--change");
     } else {
-      header.removeClass("page-header--change");
+      header.removeClass("header--change");
     }
   });
 });

@@ -113,9 +113,19 @@ p {
   cursor: pointer;
 }
 
+/* Logo */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+}
+
 /* Page Header */
 
-.page-header {
+.header {
   position: fixed;
   width: 100%;
   top: 0;
@@ -125,16 +135,8 @@ p {
   border-bottom: 1px solid #ececec;
 }
 
-.page-header__container {
+.header-container {
   display: flex;
-}
-
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
-  color: var(--primary-text-color);
 }
 
 .header-logo {
@@ -953,7 +955,7 @@ p {
 
 /* Header change */
 
-.page-header--change {
+.header--change {
   background-color: rgba(47, 48, 58, 0.9);
   border-bottom: 1px solid rgba(47, 48, 58, 0.9);
   transition: background-color var(--transition-duration)
