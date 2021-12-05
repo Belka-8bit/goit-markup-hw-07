@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/main.scss",
-        "../sass/utils/_variables.scss"
-    ],
-    "names": [],
-    "file": "main.css"
-}
+{"version":3,"sources":["../sass/components/_body.scss","../sass/utils/_variables.scss","../sass/main.scss"],"names":[],"mappings":"AAAA;EACE,iBAAA;EACA,yBCCyB;EDAzB,cCSmB;EDRnB,iCCJa;EDKb,sBAAA;AECF","file":"main.css"}

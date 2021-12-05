@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/main.scss",
-        "../sass/utils/_variables.scss"
-    ],
-    "names": [],
-    "file": "main.min.css"
-}
+{"version":3,"sources":["../sass/components/_body.scss","../sass/utils/_variables.scss"],"names":[],"mappings":"AAAA,KACE,gBAAA,CACA,qBCCyB,CAAA,aASN,CDRnB,+BCJa,CDKb,oBAAA","file":"main.min.css"}
