@@ -1,0 +1,9 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-color: $primary-background-color;
+  margin: 0 auto;
+  border-bottom: 1px solid $line-border-color;
+}

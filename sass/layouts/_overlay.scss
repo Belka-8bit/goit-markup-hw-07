@@ -1,0 +1,25 @@
+.portfolio-card__overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-card__text {
+  position: absolute;
+  text-align: start;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: 1.56;
+  transform: translateY(101%);
+  color: $light-text-color;
+  background-color: $accent-background-color;
+  transition: transform $transition-duration $transition-timing-function;
+
+  .portfolio-card__link:hover &,
+  .portfolio-card__link:focus & {
+    transform: translateY(0);
+  }
+}
