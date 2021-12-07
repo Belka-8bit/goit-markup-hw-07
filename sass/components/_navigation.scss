@@ -46,6 +46,10 @@
       background-color $transition-duration $transition-timing-function;
   }
 
+  &--current {
+    color: $accent-color;
+  }
+
   &--current::after {
     content: "";
     opacity: 1;
