@@ -1,0 +1,25 @@
+.header--change {
+  background-color: $change-background-color;
+  border-bottom: 1px solid $change-border-color;
+  transition: background-color $transition-duration $transition-timing-function;
+}
+
+.logo--header--change {
+  color: $light-text-color;
+  transition: color $transition-duration $transition-timing-function;
+}
+
+.nav-list__link--change {
+  color: $light-text-color;
+  transition: color $transition-duration $transition-timing-function;
+}
+
+.nav-list__link--current--change {
+  color: $accent-color;
+  transition: color $transition-duration $transition-timing-function;
+}
+
+.contact-list__link--change {
+  color: $footer-address-color;
+  transition: color $transition-duration $transition-timing-function;
+}

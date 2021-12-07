@@ -1,0 +1,33 @@
+.footer-form {
+  margin-left: auto;
+}
+
+.footer-form__label {
+  display: inline-block;
+}
+
+.footer-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  background-color: inherit;
+  -webkit-text-fill-color: $light-text-color;
+  -webkit-box-shadow: 0 0 0px 1000px $primary-section-color inset;
+  caret-color: $light-text-color;
+  border: 1px solid $secondary-border-color;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  &::placeholder {
+    line-height: 1.25;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.footer-btn {
+  margin-left: 12px;
+}
+
+.footer-btn__icon {
+  margin-left: 10px;
+}
